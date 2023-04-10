@@ -1,0 +1,28 @@
+4/10/2023 1:58:48 PM: Creating log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\April 2023\Analysis-72 4.0\source\Analysis-72 4.0.dev
+- Compiler Name: TDM-GCC 4.9.2 32-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\April 2023\Analysis-72 4.0\source\Makefile.win
+- Resource File: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\April 2023\Analysis-72 4.0\source\Analysis-72_4.0_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\April 2023\Analysis-72 4.0\source\Makefile.win" all
+
+g++.exe -c main.cpp -o ../source/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -m32
+windres.exe -i Analysis-72_4.0_private.rc -F pe-i386 --input-format=rc -o ../source/Analysis-72_4.0_private.res -O coff 
+g++.exe ../source/main.o ../source/Analysis-72_4.0_private.res -o ../Analysis72.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -mwindows -m32
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\April 2023\Analysis-72 4.0\Analysis72.exe
+- Output Size: 126.154296875 KiB
+- Compilation Time: 1.83s
